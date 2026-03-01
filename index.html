@@ -1,450 +1,2039 @@
-<!DOCTYPE html>
-<html lang="id">
+<!-- AWAL HEADER -->
+<div id="hero-properti" class="fitur bg-header">
+    <div class="konten">
+        <div class="kol-12 renggang">
+            <div class="box putih">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pare Kampung Inggris - Belajar Bahasa Inggris Terbaik di Pare</title>
-    <meta name="description"
-        content="Pare Kampung Inggris - Tempat kursus bahasa Inggris terbaik di Pare, Kediri. Program lengkap mulai TOEFL, IELTS, Speaking, dan Grammar dengan biaya terjangkau.">
-    <!-- Bootstrap 5 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap Icons -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="style.css" rel="stylesheet">
-</head>
+                <div class="badge-properti">
+                    <i class="bi bi-star-fill"></i> Platform Properti #1 di Malang
+                </div>
 
-<body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <div class="brand-icon"><i class="bi bi-mortarboard-fill"></i></div>
-                <span class="brand-text">Kampung<span>Inggris</span></span>
-            </a>
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item"><a class="nav-link active" href="index.html">Beranda</a></li>
-                    <li class="nav-item"><a class="nav-link" href="tentang-kami.html">Tentang Kami</a></li>
-                    <li class="nav-item"><a class="nav-link" href="program.html">Program</a></li>
-                    <li class="nav-item"><a class="nav-link" href="paket.html">Paket</a></li>
-                    <li class="nav-item"><a class="nav-link" href="fasilitas.html">Fasilitas</a></li>
-                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                <h1 class="judul-properti">Temukan <span>Properti Impian</span><br>Anda di Kota Malang</h1>
+
+                <p class="deskripsi-properti">
+                    Kami menyediakan beragam pilihan properti terbaik di Malang Raya. Dari rumah minimalis modern hingga
+                    hunian mewah, kami siap membantu menemukan tempat tinggal ideal untuk Anda.
+                </p>
+
+                <div class="grup-tombol">
+                    <a class="btn-aksi btn-biru" href="/p/properti.html" target="_blank"><i class="bi bi-search"></i>
+                        Jelajahi Properti</a>
+                    <a class="btn-aksi btn-transparan" href="/p/about.html" target="_blank"><i
+                            class="bi bi-play-circle"></i> Tentang Kami</a>
+                </div>
+
+                <div class="statistik-properti">
+                    <div class="stat-item">
+                        <h2>500<span>+</span></h2>
+                        <p>PROPERTI</p>
+                    </div>
+                    <div class="stat-item">
+                        <h2>1.2K<span>+</span></h2>
+                        <p>KLIEN PUAS</p>
+                    </div>
+                    <div class="stat-item">
+                        <h2>15<span>+</span></h2>
+                        <p>TAHUN</p>
+                    </div>
+                    <div class="stat-item">
+                        <h2>50<span>+</span></h2>
+                        <p>AGEN</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Mengatur Background & Overlay Biru Gelap */
+    #hero-properti.bg-header {
+        /* Ganti URL gambar di bawah dengan link gambar rumah/properti yang diinginkan */
+        background: linear-gradient(rgba(31, 58, 95, 0.9), rgba(31, 58, 95, 0.9)), url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzOMf2DcWyV3lXDxw-SQLUdwj8G0l_rzkrbXPFJAxrqQAyYM0rjtNt-uPPYBsRv35GQIyTxLLXtOGSoTvgO1ML4EmUW9RjzeZXrEcuTagsg_Gi8S91E1iHjvl1n3wgiKWb0DjSk_UjUYVXV84xdmLi7OHd9CtmOaKO6bEub3wB7-hF-OQrKfZTr4w20Ew/s1344/hero.webp") center center;
+        background-size: cover;
+        padding: 80px 0;
+        font-family: 'Inter', 'Segoe UI', sans-serif;
+    }
+
+    #hero-properti .renggang {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    /* Override bawaan .box .putih agar background transparan & teks rata kiri */
+    #hero-properti .box.putih {
+        background: transparent !important;
+        box-shadow: none !important;
+        text-align: left !important;
+        color: #ffffff !important;
+        padding: 0 20px !important;
+        max-width: 800px;
+    }
+
+    /* Style Badge */
+    #hero-properti .badge-properti {
+        display: inline-flex;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        padding: 8px 20px;
+        border-radius: 50px;
+        font-size: 13px;
+        color: #e2e8f0;
+        margin-bottom: 25px;
+    }
+
+    #hero-properti .badge-properti i {
+        color: #eab308;
+        /* Warna kuning emas */
+        margin-right: 8px;
+    }
+
+    /* Style Judul */
+    #hero-properti h1.judul-properti {
+        font-family: 'Merriweather', 'Georgia', serif;
+        font-size: 46px;
+        font-weight: 700;
+        line-height: 1.3;
+        color: #ffffff !important;
+        margin-bottom: 20px;
+    }
+
+    #hero-properti h1.judul-properti span {
+        color: #93c5fd;
+        /* Warna biru muda pada teks */
+    }
+
+    /* Style Paragraf */
+    #hero-properti .deskripsi-properti {
+        font-size: 16px;
+        line-height: 1.7;
+        color: #cbd5e1;
+        max-width: 650px;
+        margin-bottom: 40px;
+    }
+
+    /* Style Grup Tombol */
+    #hero-properti .grup-tombol {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 60px;
+        flex-wrap: wrap;
+    }
+
+    #hero-properti .btn-aksi {
+        padding: 12px 28px;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 15px;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        transition: all 0.3s ease;
+    }
+
+    #hero-properti .btn-aksi i {
+        margin-right: 8px;
+        font-size: 18px;
+    }
+
+    #hero-properti .btn-biru {
+        background-color: #3b82f6;
+        color: #ffffff !important;
+        border: 1px solid #3b82f6;
+    }
+
+    #hero-properti .btn-biru:hover {
+        background-color: #2563eb;
+    }
+
+    #hero-properti .btn-transparan {
+        background-color: transparent;
+        color: #ffffff !important;
+        border: 1px solid #cbd5e1;
+    }
+
+    #hero-properti .btn-transparan:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    /* Style Statistik */
+    #hero-properti .statistik-properti {
+        display: flex;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+
+    #hero-properti .stat-item h2 {
+        font-family: 'Merriweather', 'Georgia', serif;
+        font-size: 32px;
+        font-weight: 700;
+        color: #ffffff !important;
+        margin: 0 0 5px 0;
+    }
+
+    #hero-properti .stat-item h2 span {
+        color: #ca8a04;
+        /* Warna plus emas */
+        font-size: 24px;
+        font-family: 'Inter', sans-serif;
+        vertical-align: top;
+    }
+
+    #hero-properti .stat-item p {
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: #94a3b8;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    /* Responsivitas untuk layar HP */
+    @media (max-width: 768px) {
+        #hero-properti h1.judul-properti {
+            font-size: 32px;
+        }
+
+        #hero-properti .statistik-properti {
+            gap: 25px;
+        }
+
+        #hero-properti .stat-item h2 {
+            font-size: 26px;
+        }
+    }
+</style>
+<!-- AKHIR HEADER -->
+
+<!--AWAL 2 	KOLOM-->
+<div id="seksi-tentang-kami" class="fitur bg-abuabu">
+    <div class="konten ditengah layout-dua-kolom">
+
+        <div class="kol-12 box wow animated zoomIn">
+            <div class="wadah-gambar">
+                <img alt="Interior Rumah Malang"
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgo2zN0V6Cv3S556Yn5fVyGM_287dwp39wzWvfp0IBhyQMikI-4rX905YQzzsYMiy5yijANl0z00PyCqAZKV_Oy5exv1S28r_oC6pnkWzl85eRT2_EgmSq0bbf-kLxEV2wC3IrMeBUKv3XOR-41hJSwvw08nm2Dun9pCRWo4feU0UnMYFXb2Jx8Flr8kpY/s1344/about.webp" />
+                <div class="kotak-mengambang">
+                    <h3>15<span>+</span></h3>
+                    <p>Tahun Pengalaman</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="kol-12 box">
+            <div class="box melengkung latar-putih wow animated zoomIn bungkus-teks">
+
+                <div class="sub-judul">
+                    <span class="garis"></span> TENTANG KAMI
+                </div>
+
+                <h2 class="tebal sedang judul-seksi">Partner Terpercaya untuk Properti Impian Anda</h2>
+
+                <p class="kecil deskripsi-seksi">
+                    MalangProperti hadir sebagai solusi lengkap dalam dunia properti di Malang Raya. Dengan pengalaman
+                    lebih dari 15 tahun, kami telah membantu ribuan keluarga menemukan hunian impian mereka.
+                </p>
+
+                <ul class="fa-ul grid-fitur">
+                    <li class="garis-putih item-fitur">
+                        <i class="bi bi-shield-check icon-fitur"></i>
+                        <div class="isi-fitur">
+                            <b>Legalitas Terjamin</b>
+                            <span class="kecil">Semua properti terverifikasi</span>
+                        </div>
+                    </li>
+                    <li class="garis-putih item-fitur">
+                        <i class="bi bi-geo-alt icon-fitur"></i>
+                        <div class="isi-fitur">
+                            <b>Lokasi Strategis</b>
+                            <span class="kecil">Pilihan properti di lokasi terbaik</span>
+                        </div>
+                    </li>
+                    <li class="garis-putih item-fitur">
+                        <i class="bi bi-cash-stack icon-fitur"></i>
+                        <div class="isi-fitur">
+                            <b>Harga Terbaik</b>
+                            <span class="kecil">Harga kompetitif dan transparan</span>
+                        </div>
+                    </li>
+                    <li class="garis-putih item-fitur">
+                        <i class="bi bi-headset icon-fitur"></i>
+                        <div class="isi-fitur">
+                            <b>Konsultasi Gratis</b>
+                            <span class="kecil">Tim agen siap membantu 24/7</span>
+                        </div>
+                    </li>
                 </ul>
-                <a href="https://wa.me/62895639068080" class="btn btn-daftar" target="_blank">
-                    <i class="bi bi-whatsapp me-1"></i> Daftar Sekarang
+
+                <a href="/p/about.html" target="_blank" class="btn-biru-utama">Selengkapnya &rarr;</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<style>
+    /* Reset & Layout Dasar (2 Kolom) */
+    #seksi-tentang-kami .layout-dua-kolom {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 40px;
+        text-align: left !important;
+        /* Menimpa efek class .ditengah */
+        padding: 60px 0;
+    }
+
+    #seksi-tentang-kami .kol-12 {
+        flex: 1 1 45%;
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 15px;
+    }
+
+    /* Modifikasi Kolom Gambar Kiri */
+    #seksi-tentang-kami .wadah-gambar {
+        position: relative;
+        width: 100%;
+        border-radius: 20px;
+        z-index: 1;
+    }
+
+    #seksi-tentang-kami .wadah-gambar img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        object-fit: cover;
+        display: block;
+    }
+
+    /* Kotak Biru Mengambang */
+    #seksi-tentang-kami .kotak-mengambang {
+        position: absolute;
+        bottom: -20px;
+        right: -20px;
+        background: linear-gradient(135deg, #2563eb, #3b82f6);
+        color: white;
+        padding: 30px 40px;
+        border-radius: 15px;
+        text-align: center;
+        box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
+        z-index: 2;
+        display: none;
+    }
+
+    #seksi-tentang-kami .kotak-mengambang h3 {
+        font-family: 'Merriweather', serif;
+        font-size: 36px;
+        margin: 0 0 5px 0;
+        font-weight: 700;
+        color: white !important;
+    }
+
+    #seksi-tentang-kami .kotak-mengambang p {
+        font-size: 14px;
+        margin: 0;
+        font-weight: 500;
+    }
+
+    /* Reset Kolom Teks Kanan */
+    #seksi-tentang-kami .bungkus-teks {
+        background: transparent !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+    }
+
+    /* Tipografi Teks Kanan */
+    #seksi-tentang-kami .sub-judul {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        color: #475569;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    #seksi-tentang-kami .sub-judul .garis {
+        width: 30px;
+        height: 2px;
+        background-color: #3b82f6;
+    }
+
+    #seksi-tentang-kami h2.judul-seksi {
+        font-family: 'Merriweather', serif;
+        font-size: 38px;
+        font-weight: 800;
+        line-height: 1.3;
+        color: #0f172a !important;
+        margin: 0 0 20px 0;
+    }
+
+    #seksi-tentang-kami p.deskripsi-seksi {
+        font-size: 16px;
+        line-height: 1.7;
+        color: #64748b;
+        margin-bottom: 35px;
+    }
+
+    /* Grid 4 Ikon (Ikon di Kiri, Rata Tengah Vertikal) */
+    #seksi-tentang-kami .grid-fitur {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin: 0 0 40px 0 !important;
+        padding: 0 !important;
+    }
+
+    #seksi-tentang-kami .item-fitur {
+        display: flex;
+        flex-direction: row;
+        /* Ikon di kiri, teks di kanan */
+        /* INI KUNCINYA: align-items: center membuat item sejajar di tengah garis vertikal */
+        align-items: center;
+        justify-content: flex-start;
+        text-align: left;
+        gap: 18px;
+        /* Jarak antar ikon dan teks sedikit diperlega */
+        background-color: #f8fafc;
+        padding: 20px;
+        border-radius: 12px;
+        border: 1px solid #f1f5f9;
+        margin: 0 !important;
+        transition: transform 0.3s ease;
+        /* Memastikan tinggi kotak menyesuaikan isi */
+        height: auto;
+    }
+
+    #seksi-tentang-kami .item-fitur:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    }
+
+    #seksi-tentang-kami .icon-fitur {
+        position: static !important;
+        font-size: 28px;
+        /* Ukuran ikon sedikit diperbesar agar lebih gagah */
+        color: #2563eb;
+        margin: 0;
+        /* Hapus margin agar hitungan tengah akurat */
+        /* PENTING UNTUK MOBILE: Mencegah ikon mengecil/gepeng saat teks panjang */
+        flex-shrink: 0;
+        line-height: 1;
+        /* Memastikan tinggi baris ikon tidak mengganggu */
+    }
+
+    /* Wadah teks di sebelah kanan ikon */
+    #seksi-tentang-kami .isi-fitur {
+        flex-grow: 1;
+        /* Membiarkan teks mengisi sisa ruang */
+    }
+
+    #seksi-tentang-kami .isi-fitur b {
+        display: block;
+        font-size: 15px;
+        color: #1e293b;
+        margin-bottom: 5px;
+        line-height: 1.3;
+    }
+
+    #seksi-tentang-kami .isi-fitur span {
+        display: block;
+        font-size: 13px;
+        color: #64748b;
+        line-height: 1.5;
+    }
+
+    /* Tombol Utama */
+    #seksi-tentang-kami .btn-biru-utama {
+        display: inline-block;
+        background-color: #3b82f6;
+        color: white !important;
+        padding: 14px 32px;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 15px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    }
+
+    #seksi-tentang-kami .btn-biru-utama:hover {
+        background-color: #2563eb;
+    }
+
+    /* Responsif untuk Mobile */
+    @media (max-width: 991px) {
+        #seksi-tentang-kami .kotak-mengambang {
+            bottom: 20px;
+            right: 20px;
+            padding: 20px 30px;
+        }
+
+        #seksi-tentang-kami h2.judul-seksi {
+            font-size: 32px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        #seksi-tentang-kami .kol-12 {
+            flex: 1 1 100%;
+        }
+
+        #seksi-tentang-kami .grid-fitur {
+            grid-template-columns: 1fr;
+            /* Jadi 1 kolom di HP */
+        }
+    }
+</style>
+<!--AKHIR 2 KOLOM-->
+
+<!--AWAL FITUR-->
+<div id="kategori-properti" class="fitur oke bg-kategori">
+    <div class="konten headline bungkus-header">
+        <div class="sub-judul-kategori">
+            <span class="garis-hias"></span> KATEGORI PROPERTI <span class="garis-hias"></span>
+        </div>
+        <h3 class="besar tebal judul-utama">Temukan Properti Sesuai Kebutuhan</h3>
+        <p class="deskripsi-header">Beragam jenis properti tersedia untuk Anda.</p>
+    </div>
+
+    <div class="konten tengah grid-kategori">
+        <div class="kol-13">
+            <div class="box card-kategori">
+                <div class="bungkus-icon"><i class="bi bi-house-door"></i></div>
+                <h4 class="tebal title-kategori">Rumah</h4>
+                <p class="kecil text-kategori">120+ Listing</p>
+            </div>
+        </div>
+
+        <div class="kol-13">
+            <div class="box card-kategori">
+                <div class="bungkus-icon"><i class="bi bi-building"></i></div>
+                <h4 class="tebal title-kategori">Apartemen</h4>
+                <p class="kecil text-kategori">85+ Listing</p>
+            </div>
+        </div>
+
+        <div class="kol-13">
+            <div class="box card-kategori">
+                <div class="bungkus-icon"><i class="bi bi-tree"></i></div>
+                <h4 class="tebal title-kategori">Tanah</h4>
+                <p class="kecil text-kategori">95+ Listing</p>
+            </div>
+        </div>
+
+        <div class="kol-13">
+            <div class="box card-kategori">
+                <div class="bungkus-icon"><i class="bi bi-shop"></i></div>
+                <h4 class="tebal title-kategori">Ruko</h4>
+                <p class="kecil text-kategori">60+ Listing</p>
+            </div>
+        </div>
+
+        <div class="kol-13">
+            <div class="box card-kategori">
+                <div class="bungkus-icon"><i class="bi bi-house-heart"></i></div>
+                <h4 class="tebal title-kategori">Villa</h4>
+                <p class="kecil text-kategori">40+ Listing</p>
+            </div>
+        </div>
+
+        <div class="kol-13">
+            <div class="box card-kategori">
+                <div class="bungkus-icon"><i class="bi bi-buildings"></i></div>
+                <h4 class="tebal title-kategori">Komersial</h4>
+                <p class="kecil text-kategori">35+ Listing</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Background keseluruhan seksi */
+    #kategori-properti.bg-kategori {
+        background-color: #f4f7f9;
+        /* Warna abu-abu kebiruan sangat muda */
+        padding: 60px 0;
+        font-family: 'Inter', 'Segoe UI', sans-serif;
+    }
+
+    /* Styling Bagian Headline */
+    #kategori-properti .bungkus-header {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    #kategori-properti .sub-judul-kategori {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 13px;
+        font-weight: 600;
+        color: #1e40af;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    #kategori-properti .sub-judul-kategori .garis-hias {
+        width: 20px;
+        height: 1px;
+        background-color: #1e40af;
+        margin: 0 10px;
+    }
+
+    #kategori-properti .judul-utama {
+        font-family: 'Merriweather', 'Georgia', serif;
+        font-size: 34px;
+        font-weight: 700;
+        color: #0f172a !important;
+        margin-bottom: 10px;
+        border: none;
+        /* Menghapus border bawah bawaan hr/h3 jika ada */
+    }
+
+    #kategori-properti .deskripsi-header {
+        font-size: 15px;
+        color: #64748b;
+    }
+
+    /* Grid Layout untuk memaksakan 6 Kolom */
+    #kategori-properti .grid-kategori {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 20px;
+        width: 100%;
+    }
+
+    /* Reset sifat kol-13 bawaan di dalam seksi ini */
+    #kategori-properti .kol-13 {
+        width: 100% !important;
+        float: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* Styling Card Kategori */
+    #kategori-properti .card-kategori {
+        background: #ffffff !important;
+        border: 1px solid #e2e8f0;
+        border-radius: 12px;
+        padding: 25px 15px !important;
+        text-align: center;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    /* Efek Hover Simple */
+    #kategori-properti .card-kategori:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.08);
+        border-color: #cbd5e1;
+    }
+
+    /* Styling Icon di dalam Card */
+    #kategori-properti .bungkus-icon {
+        width: 65px;
+        height: 65px;
+        background-color: #f1f5f9;
+        /* Biru sangat muda */
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+        color: #1e40af;
+        /* Warna icon biru tua */
+        font-size: 26px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    /* Tipografi di dalam Card */
+    #kategori-properti .title-kategori {
+        font-size: 16px;
+        font-weight: 700;
+        color: #0f172a !important;
+        margin: 0 0 5px 0 !important;
+    }
+
+    #kategori-properti .text-kategori {
+        font-size: 13px;
+        color: #64748b !important;
+        margin: 0 !important;
+    }
+
+    /* Responsivitas untuk Tablet dan HP */
+    @media (max-width: 991px) {
+        #kategori-properti .grid-kategori {
+            grid-template-columns: repeat(3, 1fr);
+            /* 3 kolom di Tablet */
+        }
+    }
+
+    @media (max-width: 576px) {
+        #kategori-properti .judul-utama {
+            font-size: 26px;
+        }
+
+        #kategori-properti .grid-kategori {
+            grid-template-columns: repeat(2, 1fr);
+            /* 2 kolom di HP */
+            gap: 15px;
+        }
+    }
+</style>
+<!--AKHIR FITUR-->
+
+<!-- AWAL DISPLAY 4 KOLOM -->
+<div id="properti-unggulan" class="fitur oke">
+
+    <div class="konten headline bungkus-header-unggulan">
+        <div class="teks-header">
+            <div class="sub-judul-unggulan">
+                <span class="garis-hias"></span> PROPERTI UNGGULAN
+            </div>
+            <h2 class="tebal judul-unggulan">Pilihan Terbaik untuk Anda</h2>
+            <p class="deskripsi-unggulan">Koleksi properti unggulan kami yang telah dikurasi.</p>
+        </div>
+        <div class="tombol-header">
+            <a href="/p/properti.html" target="_blank" class="btn-lihat-semua">Lihat Semua &rarr;</a>
+        </div>
+    </div>
+
+    <div class="konten grid grid-unggulan">
+
+        <div class="kol4">
+            <div class="bok">
+                <a href="/p/detail-rumah-lowokwaru.html" class="melengkung latar-putih bayangan card-properti">
+                    <div class="wadah-gambar">
+                        <span class="badge-status bg-biru">DIJUAL</span>
+                        <span class="badge-favorit"><i class="bi bi-heart"></i></span>
+                        <img class="melengkung-atas"
+                            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj11agtHNqbHVCEJ3xNlHUbqfqEkrAkHqE322SEQexCsULLN5YYarN4ClT3N4oRcuicxE9c1zGT2QIGpqO3kxep6LVPtWOz6E3NCzbn9FPlUTQCbRAt-p2rPQBjBu8Q2YEBIu7EHL-ued1tn1WTgxrE_zaj_py-XfBwakOTmJKh6YH2bn334HuUYcAq3T4/s1344/rumah-lowokwaru.webp"
+                            alt="Rumah Modern">
+                    </div>
+                    <div class="bok2 info-properti">
+                        <h3 class="harga">Rp 1,2 Miliar</h3>
+                        <p class="judul line2">Rumah Modern Minimalis 2 Lantai di Lowokwaru</p>
+                        <p class="lokasi"><i class="bi bi-geo-alt"></i> Lowokwaru, Malang</p>
+                        <div class="fasilitas">
+                            <span><i class="bi bi-door-closed"></i> 4 KT</span>
+                            <span><i class="bi bi-droplet"></i> 3 KM</span>
+                            <span><i class="bi bi-arrows-angle-expand"></i> 150m&sup2;</span>
+                        </div>
+                    </div>
                 </a>
             </div>
         </div>
-    </nav>
 
-    <!-- Hero Section -->
-    <section class="hero-section" id="hero">
-        <div class="container position-relative" style="z-index: 2;">
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-5 mb-lg-0">
-                    <div class="hero-badge">
-                        <span class="dot"></span>
-                        Pendaftaran Periode Baru Dibuka
+        <div class="kol4">
+            <div class="bok">
+                <a href="/p/detail-villa-batu.html" class="melengkung latar-putih bayangan card-properti">
+                    <div class="wadah-gambar">
+                        <span class="badge-status bg-hijau">BARU</span>
+                        <span class="badge-favorit"><i class="bi bi-heart"></i></span>
+                        <img class="melengkung-atas"
+                            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVeOpmoouRKyAwWechJXJeZax1cwhtVgzTfQJFB_6m4q-jrFiKCtbGx3FMXEqN0OFl0WAsdPo8thgkOamP9F4Y9PyoLFwX7Bgt-Y8Gvt2NOJimz5p-Brky7mFZ7R_WjvCklh2Ezf5ugAcF-zwsDdbT58-nh2kZSbz3kV5zWnkrtcG6gdsq4oWPnnrbLhE/s1344/villa-batu.webp"
+                            alt="Villa Mewah">
                     </div>
-                    <h1>Wujudkan Mimpi <br><span class="highlight">Mahir Bahasa Inggris</span> dari Pare</h1>
-                    <p class="lead">Bergabunglah dengan ribuan alumni sukses. Belajar bahasa Inggris intensif dengan
-                        metode yang terbukti efektif di lingkungan yang suportif dan menyenangkan.</p>
-                    <div class="hero-btns d-flex flex-wrap gap-3">
-                        <a href="program.html" class="btn btn-light"><i class="bi bi-book me-2"></i>Lihat Program</a>
-                        <a href="tentang-kami.html" class="btn btn-outline-light"><i
-                                class="bi bi-play-circle me-2"></i>Tentang Kami</a>
-                    </div>
-                    <div class="hero-trust">
-                        <div class="avatars">
-                            <img src="img/alumni-hero-1.webp" alt="Alumni 1">
-                            <img src="img/alumni-hero-2.webp" alt="Alumni 2">
-                            <img src="img/alumni-hero-3.webp" alt="Alumni 3">
-                            <div class="more-count">+2K</div>
-                        </div>
-                        <span>Dipercaya oleh 10.000+ Alumni sejak 2015</span>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="hero-img-wrapper">
-                        <img src="img/hero-image.webp" alt="Siswa belajar bersama di kampus Pare">
-                        <div class="hero-floating-card">
-                            <div class="icon-box"><i class="bi bi-patch-check-fill"></i></div>
-                            <div>
-                                <h6 class="mb-0 fw-bold">Metode Terakreditasi</h6>
-                                <small class="text-muted">Standar Internasional CEFR</small>
-                            </div>
+                    <div class="bok2 info-properti">
+                        <h3 class="harga">Rp 3,5 Miliar</h3>
+                        <p class="judul line2">Villa Mewah dengan View Pegunungan di Batu</p>
+                        <p class="lokasi"><i class="bi bi-geo-alt"></i> Batu, Malang</p>
+                        <div class="fasilitas">
+                            <span><i class="bi bi-door-closed"></i> 5 KT</span>
+                            <span><i class="bi bi-droplet"></i> 4 KM</span>
+                            <span><i class="bi bi-arrows-angle-expand"></i> 350m&sup2;</span>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
-    </section>
 
-    <!-- Stats Section -->
-    <section class="stats-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-6 col-md-3">
-                    <div class="stat-item fade-up">
-                        <h3>50+</h3>
-                        <p>Program Belajar</p>
+        <div class="kol4">
+            <div class="bok">
+                <a href="/p/detail-apartemen-klojen.html" class="melengkung latar-putih bayangan card-properti">
+                    <div class="wadah-gambar">
+                        <span class="badge-status bg-kuning">DISEWA</span>
+                        <span class="badge-favorit"><i class="bi bi-heart"></i></span>
+                        <img class="melengkung-atas"
+                            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJu8HrPApte29C9YXxaV-0hM0pK5hJxDmKQB2FlOanu52bmVkcUg1qRJ2X2XvBK8dA30Qfh69WIqx0HybME5udBIsIAxwqtGcrQt6SS0swYPmI2vIiwm_s89SgyX4TjM1X9wBzFstM7vN3pSLbIwsDiUFolAfoOoYCv53og99FphzX1angDlmvrAQ-NIo/s1344/apartemen-klojen.webp"
+                            alt="Apartemen">
                     </div>
-                </div>
-                <div class="col-6 col-md-3">
-                    <div class="stat-item fade-up">
-                        <h3>150+</h3>
-                        <p>Tutor Profesional</p>
+                    <div class="bok2 info-properti">
+                        <h3 class="harga">Rp 5 Jt<span class="rentang">/bulan</span></h3>
+                        <p class="judul line2">Apartemen Premium Full Furnished di Klojen</p>
+                        <p class="lokasi"><i class="bi bi-geo-alt"></i> Klojen, Malang</p>
+                        <div class="fasilitas">
+                            <span><i class="bi bi-door-closed"></i> 2 KT</span>
+                            <span><i class="bi bi-droplet"></i> 1 KM</span>
+                            <span><i class="bi bi-arrows-angle-expand"></i> 75m&sup2;</span>
+                        </div>
                     </div>
-                </div>
-                <div class="col-6 col-md-3">
-                    <div class="stat-item fade-up">
-                        <h3>10K+</h3>
-                        <p>Alumni Sukses</p>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3">
-                    <div class="stat-item fade-up">
-                        <h3>4.9</h3>
-                        <p>Rating Google</p>
-                    </div>
-                </div>
+                </a>
             </div>
         </div>
-    </section>
 
-    <!-- Kenapa Memilih Kami -->
-    <section class="py-5" style="background: var(--bg-section);">
-        <div class="container">
-            <div class="section-header">
-                <span class="badge-label">Kenapa Memilih Kami?</span>
-                <h2>Belajar Lebih Cepat, Hasil Lebih Nyata</h2>
-                <p>Kami mendesain lingkungan belajar yang memaksimalkan potensi Anda dalam waktu singkat dengan metode
-                    <em>immersive learning</em>.
+        <div class="kol4">
+            <div class="bok">
+                <a href="/p/detail-rumah-blimbing.html" class="melengkung latar-putih bayangan card-properti">
+                    <div class="wadah-gambar">
+                        <span class="badge-status bg-biru">DIJUAL</span>
+                        <span class="badge-favorit"><i class="bi bi-heart"></i></span>
+                        <img class="melengkung-atas"
+                            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUycGi3R4xQdkztWkLhG6HZJdDSHVVkRbrcSiSgJphKKYVMGtvaZph9JXxZk8fErNLhwrlDxzuSrSZJNjMT0a1Plli1fyC53mukTTnQLDcXpWFj86_uWVH6jS0b2p6ya6qkimK0NdzlriMtrUWY5Z5exMQT6_BhN9IMakhz0BpLH6yzIw_nLw_VxGzCQQ/s1344/rumah-blimbing.webp"
+                            alt="Rumah Cluster">
+                    </div>
+                    <div class="bok2 info-properti">
+                        <h3 class="harga">Rp 850 Juta</h3>
+                        <p class="judul line2">Rumah Cluster Premium di Blimbing</p>
+                        <p class="lokasi"><i class="bi bi-geo-alt"></i> Blimbing, Malang</p>
+                        <div class="fasilitas">
+                            <span><i class="bi bi-door-closed"></i> 3 KT</span>
+                            <span><i class="bi bi-droplet"></i> 2 KM</span>
+                            <span><i class="bi bi-arrows-angle-expand"></i> 120m&sup2;</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="kol4">
+            <div class="bok">
+                <a href="/p/detail-tanah-sukun.html" class="melengkung latar-putih bayangan card-properti">
+                    <div class="wadah-gambar">
+                        <span class="badge-status bg-biru">DIJUAL</span>
+                        <span class="badge-favorit"><i class="bi bi-heart"></i></span>
+                        <img class="melengkung-atas"
+                            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimzt53VO4MP00Ud9qCobO7iBuvMVOdlcT9SaKoj4-YCFhEYrSpEoLauCDhYZyjT_s-KsO0Y-lfS02wXII8U8LdpgmnqxIDB4jVXNT41h_IiTTosfaD84HvBXl7P7ofP9xw2jswIQMR8ojLfWs4_KViXaDcssgyICc1YPLO_HbkIHKjx_HSdKzFTGpF8yM/s1344/tanah-sukun.webp"
+                            alt="Tanah Kavling">
+                    </div>
+                    <div class="bok2 info-properti">
+                        <h3 class="harga">Rp 450 Juta</h3>
+                        <p class="judul line2">Tanah Kavling Strategis di Sukun</p>
+                        <p class="lokasi"><i class="bi bi-geo-alt"></i> Sukun, Malang</p>
+                        <div class="fasilitas">
+                            <span><i class="bi bi-arrows-angle-expand"></i> 200m&sup2;</span>
+                            <span><i class="bi bi-file-earmark-text"></i> SHM</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="kol4">
+            <div class="bok">
+                <a href="/p/detail-ruko-kedungkandang.html" class="melengkung latar-putih bayangan card-properti">
+                    <div class="wadah-gambar">
+                        <span class="badge-status bg-kuning">DISEWA</span>
+                        <span class="badge-favorit"><i class="bi bi-heart"></i></span>
+                        <img class="melengkung-atas"
+                            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRd4g6NiufgclaJ1sT0g3mvlQyDwZcNz39F36apMAuFppWrFmmESUWD2tC4ppttnpdc5u3VfZsOkxyjgNgIMjt6-pNJR2fQZfnl4B36qT_ex8EIZJ1U2oUOCHhOuwJneG-6SLhOwDFgDnHcHjHG70bLFgaOgGtRYq50w3EnGrYX38VgFIp3K4_1F8D71U/s1344/ruko-kedungkandang.webp"
+                            alt="Ruko">
+                    </div>
+                    <div class="bok2 info-properti">
+                        <h3 class="harga">Rp 8 Jt<span class="rentang">/bulan</span></h3>
+                        <p class="judul line2">Ruko 3 Lantai Strategis di Kedungkandang</p>
+                        <p class="lokasi"><i class="bi bi-geo-alt"></i> Kedungkandang, Malang</p>
+                        <div class="fasilitas">
+                            <span><i class="bi bi-layers"></i> 3 Lt</span>
+                            <span><i class="bi bi-arrows-angle-expand"></i> 180m&sup2;</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<style>
+    /* Styling Header & Tombol (REVISI RATA KANAN) */
+    #properti-unggulan .bungkus-header-unggulan {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-bottom: 30px;
+        width: 100%;
+        /* Memaksa lebar penuh mengikuti grid */
+        flex-wrap: nowrap;
+        /* Mencegah tombol turun ke bawah */
+    }
+
+    #properti-unggulan .teks-header {
+        text-align: left;
+        flex: 1;
+        /* Membiarkan teks mengambil ruang kosong */
+    }
+
+    #properti-unggulan .sub-judul-unggulan {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        color: #475569;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    #properti-unggulan .sub-judul-unggulan .garis-hias {
+        width: 30px;
+        height: 2px;
+        background-color: #3b82f6;
+    }
+
+    #properti-unggulan h2.judul-unggulan {
+        font-family: 'Merriweather', 'Georgia', serif;
+        font-size: 32px;
+        font-weight: 800;
+        color: #0f172a !important;
+        margin: 0 0 5px 0;
+        border: none;
+    }
+
+    #properti-unggulan .deskripsi-unggulan {
+        font-size: 15px;
+        color: #64748b;
+        margin: 0;
+    }
+
+    #properti-unggulan .tombol-header {
+        margin-left: auto;
+        /* Menarik tombol paksa ke ujung kanan */
+        padding-left: 20px;
+        flex-shrink: 0;
+        /* Memastikan ukuran tombol tidak menyusut */
+    }
+
+    #properti-unggulan .btn-lihat-semua {
+        display: inline-block;
+        padding: 10px 24px;
+        border-radius: 50px;
+        border: 1px solid #cbd5e1;
+        color: #1e293b;
+        font-weight: 600;
+        font-size: 14px;
+        text-decoration: none;
+        transition: all 0.3s;
+        background: transparent;
+    }
+
+    #properti-unggulan .btn-lihat-semua:hover {
+        background-color: #f8fafc;
+        border-color: #94a3b8;
+    }
+
+    /* Grid 3 Kolom */
+    #properti-unggulan .grid-unggulan {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+        padding: 0;
+    }
+
+    /* Menimpa class .kol4 bawaan agar patuh pada Grid baru */
+    #properti-unggulan .kol4 {
+        width: 100% !important;
+        float: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* Styling Card Keseluruhan */
+    #properti-unggulan .card-properti {
+        display: block;
+        text-decoration: none;
+        color: inherit;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border-radius: 12px;
+        overflow: hidden;
+        border: 1px solid #f1f5f9;
+        height: 100%;
+    }
+
+    #properti-unggulan .card-properti:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.1) !important;
+    }
+
+    /* Gambar & Badge */
+    #properti-unggulan .wadah-gambar {
+        position: relative;
+        width: 100%;
+        height: 220px;
+    }
+
+    #properti-unggulan .wadah-gambar img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #properti-unggulan .badge-status {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        padding: 4px 12px;
+        border-radius: 50px;
+        font-size: 11px;
+        font-weight: 700;
+        color: white;
+        letter-spacing: 1px;
+    }
+
+    #properti-unggulan .bg-biru {
+        background-color: #1e40af;
+    }
+
+    #properti-unggulan .bg-hijau {
+        background-color: #16a34a;
+    }
+
+    #properti-unggulan .bg-kuning {
+        background-color: #eab308;
+        color: #451a03;
+    }
+
+    #properti-unggulan .badge-favorit {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        width: 35px;
+        height: 35px;
+        background-color: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #94a3b8;
+        font-size: 16px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: color 0.3s;
+    }
+
+    #properti-unggulan .card-properti:hover .badge-favorit {
+        color: #ef4444;
+        /* Berubah merah saat card dihover */
+    }
+
+    /* Info Teks dalam Card */
+    #properti-unggulan .info-properti {
+        padding: 20px !important;
+        text-align: left;
+    }
+
+    #properti-unggulan .harga {
+        font-family: 'Merriweather', serif;
+        font-size: 22px;
+        font-weight: 700;
+        color: #1e40af;
+        margin: 0 0 10px 0;
+    }
+
+    #properti-unggulan .harga .rentang {
+        font-size: 13px;
+        font-family: 'Inter', sans-serif;
+        color: #64748b;
+        font-weight: 400;
+    }
+
+    #properti-unggulan .judul {
+        font-size: 16px;
+        font-weight: 700;
+        color: #0f172a;
+        margin: 0 0 10px 0;
+        line-height: 1.4;
+        height: 44px;
+        /* Menjaga agar 2 baris konsisten */
+    }
+
+    #properti-unggulan .lokasi {
+        font-size: 13px;
+        color: #64748b;
+        margin: 0 0 20px 0;
+    }
+
+    #properti-unggulan .lokasi i {
+        color: #3b82f6;
+        margin-right: 5px;
+    }
+
+    /* Footer Fasilitas */
+    #properti-unggulan .fasilitas {
+        display: flex;
+        gap: 15px;
+        border-top: 1px solid #e2e8f0;
+        padding-top: 15px;
+        font-size: 13px;
+        color: #64748b;
+        font-weight: 500;
+    }
+
+    #properti-unggulan .fasilitas span {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    #properti-unggulan .fasilitas i {
+        color: #94a3b8;
+        font-size: 15px;
+    }
+
+    /* Responsivitas Layar */
+    @media (max-width: 991px) {
+        #properti-unggulan .grid-unggulan {
+            grid-template-columns: repeat(2, 1fr);
+            /* 2 Kolom di Tablet */
+        }
+    }
+
+    @media (max-width: 576px) {
+        #properti-unggulan .bungkus-header-unggulan {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        #properti-unggulan .grid-unggulan {
+            grid-template-columns: 1fr;
+            /* 1 Kolom di HP */
+        }
+
+        #properti-unggulan h2.judul-unggulan {
+            font-size: 26px;
+        }
+    }
+</style>
+<!-- AKHIR DISPLAY 4 KOLOM -->
+
+<!-- AWAL 3 KOLOM-->
+<div id="layanan-properti" class="fitur latar-putih">
+
+    <div class="konten headline bungkus-header-layanan">
+        <div class="sub-judul-layanan">
+            <span class="garis-hias"></span> LAYANAN KAMI <span class="garis-hias"></span>
+        </div>
+        <h2 class="tebal judul-layanan">Layanan Profesional untuk Anda</h2>
+    </div>
+
+    <div class="konten tengah grid-layanan">
+
+        <div class="kol-13 box">
+            <div class="padding shadow-abuabu melengkung card-layanan">
+                <div class="icon-layanan"><i class="bi bi-house-gear"></i></div>
+                <h3 class="sedang tebal title-layanan">Jual Beli Properti</h3>
+                <p class="kecil text-layanan">Kami membantu proses jual-beli properti secara transparan dan profesional.
                 </p>
             </div>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="feature-card fade-up">
-                        <div class="icon-box"><i class="bi bi-person-workspace"></i></div>
-                        <h4>Tutor Profesional</h4>
-                        <p>Dibimbing langsung oleh pengajar berpengalaman dengan sertifikasi internasional (TOEFL/IELTS)
-                            yang ramah dan suportif.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-card fade-up">
-                        <div class="icon-box"><i class="bi bi-globe2"></i></div>
-                        <h4>Lingkungan Imersif</h4>
-                        <p>Wajib berbahasa Inggris 24 jam di area asrama (English Camp) untuk membiasakan lidah dan
-                            pikiran Anda aktif berbahasa.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-card fade-up">
-                        <div class="icon-box"><i class="bi bi-piggy-bank"></i></div>
-                        <h4>Biaya Terjangkau</h4>
-                        <p>Paket belajar lengkap termasuk asrama, modul, dan sertifikat dengan biaya yang sangat
-                            bersahabat bagi pelajar.</p>
-                    </div>
-                </div>
+        </div>
+
+        <div class="kol-13 box">
+            <div class="padding shadow-abuabu melengkung card-layanan">
+                <div class="icon-layanan"><i class="bi bi-key"></i></div>
+                <h3 class="sedang tebal title-layanan">Sewa & Kontrak</h3>
+                <p class="kecil text-layanan">Layanan sewa properti dengan kontrak yang jelas dan perlindungan.</p>
             </div>
         </div>
-    </section>
 
-    <!-- Program Unggulan Preview -->
-    <section class="bg-white-section">
-        <div class="container">
-            <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end mb-5">
-                <div>
-                    <span class="badge-label">Program Kami</span>
-                    <h2 class="mb-2">Program Unggulan</h2>
-                    <p class="text-muted">Pilih program yang sesuai dengan target dan ketersediaan waktu Anda.</p>
-                </div>
-                <a href="program.html" class="text-decoration-none fw-semibold" style="color: var(--primary);">
-                    Lihat Semua Program <i class="bi bi-arrow-right"></i>
+        <div class="kol-13 box">
+            <div class="padding shadow-abuabu melengkung card-layanan">
+                <div class="icon-layanan"><i class="bi bi-clipboard-data"></i></div>
+                <h3 class="sedang tebal title-layanan">Konsultasi Investasi</h3>
+                <p class="kecil text-layanan">Analisis dan rekomendasi investasi properti terbaik di Malang.</p>
+            </div>
+        </div>
+
+        <div class="kol-13 box">
+            <div class="padding shadow-abuabu melengkung card-layanan">
+                <div class="icon-layanan"><i class="bi bi-bank"></i></div>
+                <h3 class="sedang tebal title-layanan">Bantuan KPR</h3>
+                <p class="kecil text-layanan">Bekerja sama dengan bank untuk pengajuan KPR dengan bunga kompetitif.</p>
+            </div>
+        </div>
+
+        <div class="kol-13 box">
+            <div class="padding shadow-abuabu melengkung card-layanan">
+                <div class="icon-layanan"><i class="bi bi-file-earmark-check"></i></div>
+                <h3 class="sedang tebal title-layanan">Legalitas Properti</h3>
+                <p class="kecil text-layanan">Pengurusan sertifikat, IMB, AJB, dan dokumen legal lainnya.</p>
+            </div>
+        </div>
+
+        <div class="kol-13 box">
+            <div class="padding shadow-abuabu melengkung card-layanan">
+                <div class="icon-layanan"><i class="bi bi-tools"></i></div>
+                <h3 class="sedang tebal title-layanan">Renovasi & Desain</h3>
+                <p class="kecil text-layanan">Layanan renovasi dan desain interior/eksterior properti Anda.</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<style>
+    /* Background Section */
+    #layanan-properti.latar-putih {
+        background-color: #f8fafc !important;
+        /* Warna dasar biru/abu sangat muda */
+        padding: 80px 0;
+        font-family: 'Inter', 'Segoe UI', sans-serif;
+    }
+
+    /* Styling Headline */
+    #layanan-properti .bungkus-header-layanan {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    #layanan-properti .sub-judul-layanan {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 13px;
+        font-weight: 600;
+        color: #1e40af;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    #layanan-properti .sub-judul-layanan .garis-hias {
+        width: 30px;
+        height: 1px;
+        background-color: #1e40af;
+        margin: 0 15px;
+    }
+
+    #layanan-properti .judul-layanan {
+        font-family: 'Merriweather', 'Georgia', serif;
+        font-size: 36px;
+        font-weight: 800;
+        color: #0f172a !important;
+        border: none;
+        margin: 0;
+    }
+
+    /* Grid 3 Kolom */
+    #layanan-properti .grid-layanan {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        text-align: left !important;
+        /* Memaksa rata kiri menimpa bawaan class 'tengah' */
+    }
+
+    /* Menetralisir sifat kol-13 bawaan agar mengikuti Grid */
+    #layanan-properti .kol-13 {
+        width: 100% !important;
+        float: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* Styling Card (Penambahan Outline Sesuai Permintaan) */
+    #layanan-properti .card-layanan {
+        background-color: transparent !important;
+        /* Tetap menyatu dengan background */
+        border: 1px solid #cbd5e1 !important;
+        /* Efek outline / garis luar */
+        border-radius: 16px !important;
+        padding: 35px 30px !important;
+        box-shadow: none !important;
+        /* Menghapus bayangan bawaan */
+        transition: all 0.3s ease;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Efek Interaktif Card */
+    #layanan-properti .card-layanan:hover {
+        border-color: #3b82f6 !important;
+        box-shadow: 0 15px 30px -10px rgba(37, 99, 235, 0.15) !important;
+        transform: translateY(-5px);
+        background-color: #ffffff !important;
+    }
+
+    /* Styling Ikon (Proporsional & Kotak Biru) */
+    #layanan-properti .icon-layanan {
+        width: 60px;
+        height: 60px;
+        background-color: #3b82f6;
+        /* Warna biru utama */
+        border-radius: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        font-size: 26px;
+        /* Ukuran ikon pas, tidak kekecilan */
+        margin-bottom: 25px;
+        transition: background-color 0.3s ease;
+    }
+
+    #layanan-properti .card-layanan:hover .icon-layanan {
+        background-color: #2563eb;
+    }
+
+    /* Tipografi Card */
+    #layanan-properti .title-layanan {
+        font-size: 19px;
+        font-weight: 700;
+        color: #0f172a !important;
+        margin: 0 0 12px 0 !important;
+    }
+
+    #layanan-properti .text-layanan {
+        font-size: 14.5px;
+        color: #64748b !important;
+        line-height: 1.6;
+        margin: 0 !important;
+    }
+
+    /* Responsivitas Layar HP & Tablet */
+    @media (max-width: 991px) {
+        #layanan-properti .grid-layanan {
+            grid-template-columns: repeat(2, 1fr);
+            /* Menjadi 2 kolom di tablet */
+            gap: 20px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        #layanan-properti .grid-layanan {
+            grid-template-columns: 1fr;
+            /* Menjadi 1 kolom di HP */
+        }
+
+        #layanan-properti .judul-layanan {
+            font-size: 28px;
+        }
+
+        #layanan-properti .card-layanan {
+            padding: 25px 20px !important;
+        }
+    }
+</style>
+<!-- AKHIR 3 KOLOM-->
+
+<!-- AWAL TOMBOL ORDER -->
+<div id="cta-properti" class="fitur latar-birumuda">
+    <div class="konten cta-wrapper">
+
+        <div class="kol-123 box mobilecenter wow animated fadeInUp cta-tengah">
+            <h2 class="judul-cta">Siap Menemukan Properti Impian?</h2>
+            <p class="deskripsi-cta">Hubungi tim agen profesional kami dan dapatkan konsultasi gratis sekarang juga.</p>
+
+            <div class="grup-tombol-cta">
+                <a class="btn-cta btn-biru" href="tel:0895639068080">
+                    <i class="bi bi-telephone-fill"></i> Hubungi Kami
+                </a>
+
+                <a class="btn-cta btn-outline" href="https://wa.me/62895639068080" target="_blank">
+                    <i class="bi bi-whatsapp"></i> Chat WhatsApp
                 </a>
             </div>
-            <div class="row g-4">
-                <!-- Program 1 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="program-card fade-up">
-                        <div class="img-wrapper">
-                            <span class="badge-tag">Populer</span>
-                            <img src="img/program-speaking.webp" class="card-img-top" alt="Kursus Speaking Mastery">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Kursus Speaking Mastery 1 Bulan</h5>
-                            <p class="card-text">Fokus pada kelancaran berbicara dan kepercayaan diri dengan metode
-                                active speaking.</p>
-                            <div class="card-meta">
-                                <span><i class="bi bi-clock"></i> 1 Bulan</span>
-                                <span><i class="bi bi-people"></i> 15 Siswa</span>
-                            </div>
-                            <div class="card-footer-custom">
-                                <span class="price">Rp 100.000</span>
-                                <a href="program.html"
-                                    class="btn btn-sm btn-outline-primary rounded-pill px-3">Detail</a>
-                            </div>
+        </div>
+
+    </div>
+</div>
+
+<style>
+    /* Mengubah background menjadi biru gelap/navy sesuai gambar */
+    #cta-properti.latar-birumuda {
+        background: #0a1324 !important;
+        /* Biru dongker gelap */
+        background: radial-gradient(circle at top center, #112240, #0a1324) !important;
+        padding: 80px 0;
+        font-family: 'Inter', 'Segoe UI', sans-serif;
+    }
+
+    /* Memaksa wrapper untuk centering */
+    #cta-properti .cta-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Menimpa sifat kolom bawaan agar mengambil lebar penuh di tengah */
+    #cta-properti .cta-tengah {
+        width: 100% !important;
+        float: none !important;
+        text-align: center !important;
+        max-width: 700px;
+        /* Menjaga agar teks tidak terlalu melebar ke ujung layar */
+        margin: 0 auto !important;
+    }
+
+    /* Tipografi Judul */
+    #cta-properti .judul-cta {
+        font-family: 'Merriweather', 'Georgia', serif;
+        font-size: 40px;
+        font-weight: 700;
+        color: #ffffff !important;
+        margin-bottom: 15px;
+        line-height: 1.3;
+        border: none;
+    }
+
+    /* Tipografi Deskripsi */
+    #cta-properti .deskripsi-cta {
+        font-size: 16px;
+        color: #cbd5e1 !important;
+        margin-bottom: 35px;
+        line-height: 1.6;
+    }
+
+    /* Tata Letak Tombol */
+    #cta-properti .grup-tombol-cta {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    #cta-properti .btn-cta {
+        padding: 14px 32px;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 15px;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        transition: all 0.3s ease;
+    }
+
+    #cta-properti .btn-cta i {
+        margin-right: 8px;
+        font-size: 18px;
+    }
+
+    /* Tombol Utama (Biru) */
+    #cta-properti .btn-biru {
+        background-color: #3b82f6 !important;
+        color: #ffffff !important;
+        border: 1px solid #3b82f6 !important;
+    }
+
+    #cta-properti .btn-biru:hover {
+        background-color: #2563eb !important;
+        transform: translateY(-3px);
+    }
+
+    /* Tombol Outline (Transparan) */
+    #cta-properti .btn-outline {
+        background-color: transparent !important;
+        color: #ffffff !important;
+        border: 1px solid #cbd5e1 !important;
+    }
+
+    #cta-properti .btn-outline:hover {
+        background-color: rgba(255, 255, 255, 0.1) !important;
+        border-color: #ffffff !important;
+        transform: translateY(-3px);
+    }
+
+    /* Responsivitas untuk Layar HP */
+    @media (max-width: 576px) {
+        #cta-properti .judul-cta {
+            font-size: 30px;
+        }
+
+        #cta-properti .grup-tombol-cta {
+            flex-direction: column;
+            /* Tombol atas bawah di HP */
+            align-items: center;
+            gap: 12px;
+        }
+
+        #cta-properti .btn-cta {
+            width: 100%;
+            justify-content: center;
+            /* Teks tombol di tengah */
+        }
+    }
+</style>
+<!-- AKHIR TOMBOL ORDER -->
+
+<!-- AWAL OWL TESTIMONI -->
+<div id="seksi-testimoni" class="fitur oke bg-abuabu">
+
+    <div class='konten tengah bungkus-header-testi'>
+        <div class="sub-judul-testi">
+            <span class="garis-hias"></span> TESTIMONI <span class="garis-hias"></span>
+        </div>
+        <h2 class="judul-testi">Apa Kata Klien Kami</h2>
+    </div>
+
+    <div class='konten'>
+        <div class='owl-carousel owl-theme owl-testimoni'>
+
+            <div class='item'>
+                <div class="card-testimoni">
+                    <div class="ikon-kutip">“</div>
+                    <div class="bintang-testi">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <p class="teks-ulasan">Proses pembelian rumah sangat lancar dan transparan. Sangat direkomendasikan!
+                    </p>
+                    <div class="profil-klien">
+                        <img class="foto-klien" alt="Budi Santoso"
+                            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7XW5DIHyvhzejcGwmE3qbJndMyg5Y7IfpAlRp1xFGEN4dSPNglj8rFEFaXbhGbUup2bgd1yDt4PJk1f2tHfpUpS05kLgWT01N-5LICXQUftMeaCB50YiZlbRPHLsFoc6IaDAceHBn_K76-RL-dCxo1LlAsHzc7TKxqmKiCGrMl0RltBeruFn7fcBpaqk/s1344/testi-budi.webp" />
+                        <div class="info-klien">
+                            <h4>Budi Santoso</h4>
+                            <span>Pengusaha, Malang</span>
                         </div>
                     </div>
                 </div>
-                <!-- Program 2 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="program-card fade-up">
-                        <div class="img-wrapper">
-                            <span class="badge-tag" style="background: var(--accent);">Tes</span>
-                            <img src="img/program-toefl.webp" class="card-img-top" alt="Tes TOEFL Online">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Tes TOEFL Online</h5>
-                            <p class="card-text">Persiapan tes TOEFL lengkap dengan simulasi mingguan dan bedah soal
-                                mendalam.</p>
-                            <div class="card-meta">
-                                <span><i class="bi bi-clock"></i> Fleksibel</span>
-                                <span><i class="bi bi-people"></i> 12 Siswa</span>
-                            </div>
-                            <div class="card-footer-custom">
-                                <span class="price">Rp 125.000</span>
-                                <a href="program.html"
-                                    class="btn btn-sm btn-outline-primary rounded-pill px-3">Detail</a>
-                            </div>
+            </div>
+
+            <div class='item'>
+                <div class="card-testimoni">
+                    <div class="ikon-kutip">“</div>
+                    <div class="bintang-testi">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <p class="teks-ulasan">Konsultasi investasi yang diberikan sangat membantu. Pilihan properti beragam
+                        dan sesuai budget.</p>
+                    <div class="profil-klien">
+                        <img class="foto-klien" alt="Sari Dewi"
+                            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqHGQvyV_wz7W1NPY83-0hKKnwxCf3XwSvcYf-e5LVB-0f5agDPNZzd0xwDEnGjxrmH4_XWIwsbJUe5TYB1TAC7-l23BKDPdEMmiPf_Xm9lidq3R44KyuSz5-EH50P9PNdi-H90H4oGD48J_UIa9r9nVDtXf3pG6dCB62OgyHN2XRoGmyjc7PJeBhSQRA/s1344/testi-sari.webp" />
+                        <div class="info-klien">
+                            <h4>Sari Dewi</h4>
+                            <span>Dokter, Batu</span>
                         </div>
                     </div>
                 </div>
-                <!-- Program 3 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="program-card fade-up">
-                        <div class="img-wrapper">
-                            <span class="badge-tag" style="background: #7C3AED;">Pemula</span>
-                            <img src="img/program-basic.webp" class="card-img-top" alt="Kursus Bahasa Inggris Dasar">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Kursus Bahasa Inggris Dasar 1 Bulan</h5>
-                            <p class="card-text">Mulai dari nol. Belajar grammar dasar dan vocabulary sehari-hari dengan
-                                santai.</p>
-                            <div class="card-meta">
-                                <span><i class="bi bi-clock"></i> 1 Bulan</span>
-                                <span><i class="bi bi-people"></i> 20 Siswa</span>
-                            </div>
-                            <div class="card-footer-custom">
-                                <span class="price">Rp 100.000</span>
-                                <a href="program.html"
-                                    class="btn btn-sm btn-outline-primary rounded-pill px-3">Detail</a>
-                            </div>
+            </div>
+
+            <div class='item'>
+                <div class="card-testimoni">
+                    <div class="ikon-kutip">“</div>
+                    <div class="bintang-testi">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                    </div>
+                    <p class="teks-ulasan">Bantuan KPR sangat memudahkan proses pembelian rumah pertama kami. Tim sangat
+                        responsif!</p>
+                    <div class="profil-klien">
+                        <img class="foto-klien" alt="Ahmad Rizky"
+                            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdnKgp2_PqX4OgD_K8T5ucYrNoAimFD_vA86woVkZ63eVGZcI_WsqQj1H9y0rpHMSQ3IobQCzkFxV29QJ6L7rdE72tYuZNCV0mHGVS0_M8LDqy8s59EH7dNwkS7tvD-9KUCf7FuJgC1EAUwa9ZXvzQeU-nkNPDAK66ELSnK7u1rZbQ4uFcs9RytBadyKs/s1344/testi-ahmad.webp" />
+                        <div class="info-klien">
+                            <h4>Ahmad Rizky</h4>
+                            <span>PNS, Malang</span>
                         </div>
                     </div>
                 </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script type='text/javascript'>//<![CDATA[
+    $(document).ready(function () {
+        $('.owl-testimoni').owlCarousel({
+            items: 1,
+            responsive: {
+                480: { items: 2 },
+                780: { items: 3 }
+            },
+            pagination: false,
+            navigation: false,
+            margin: 20, /* Menambahkan jarak antar card */
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 4000,
+            autoplayHoverPause: true
+        });
+    });
+    //]]></script>
+
+<style>
+    /* Styling Section Background */
+    #seksi-testimoni.bg-abuabu {
+        background-color: #f8fafc !important;
+        /* Warna abu-abu kebiruan terang */
+        padding: 80px 0;
+        font-family: 'Inter', 'Segoe UI', sans-serif;
+    }
+
+    /* Styling Headline Testimoni */
+    #seksi-testimoni .bungkus-header-testi {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    #seksi-testimoni .sub-judul-testi {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        color: #1e40af;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    #seksi-testimoni .sub-judul-testi .garis-hias {
+        width: 30px;
+        height: 2px;
+        background-color: #3b82f6;
+    }
+
+    #seksi-testimoni h2.judul-testi {
+        font-family: 'Merriweather', 'Georgia', serif;
+        font-size: 38px;
+        font-weight: 800;
+        color: #0f172a !important;
+        margin: 0;
+        border: none;
+    }
+
+    /* Trik Flexbox untuk Owl Carousel agar tinggi Card Selalu Sama */
+    #seksi-testimoni .owl-stage {
+        display: flex;
+        align-items: stretch;
+    }
+
+    #seksi-testimoni .owl-item {
+        display: flex;
+    }
+
+    #seksi-testimoni .item {
+        width: 100%;
+        display: flex;
+        padding: 15px 5px 30px 5px;
+        /* Memberi ruang untuk efek bayangan/shadow hover */
+    }
+
+    /* Styling Card Utama */
+    #seksi-testimoni .card-testimoni {
+        background-color: #ffffff;
+        border-radius: 12px;
+        padding: 35px 30px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+        border: 1px solid #f1f5f9;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        /* Memastikan isi memanjang mengikuti item container */
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    #seksi-testimoni .card-testimoni:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+    }
+
+    /* Ikon Kutip & Bintang */
+    #seksi-testimoni .ikon-kutip {
+        font-family: serif;
+        font-size: 60px;
+        color: #93c5fd;
+        /* Biru muda */
+        line-height: 0.5;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    #seksi-testimoni .bintang-testi {
+        color: #daba58;
+        /* Warna emas */
+        font-size: 14px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    #seksi-testimoni .bintang-testi i {
+        margin-right: 3px;
+    }
+
+    /* Teks Testimoni */
+    #seksi-testimoni .teks-ulasan {
+        font-size: 15px;
+        color: #475569;
+        font-style: italic;
+        line-height: 1.7;
+        margin: 0 0 30px 0;
+        text-align: left;
+        flex-grow: 1;
+        /* Trik agar teks mendorong profil klien ke paling bawah secara merata */
+    }
+
+    /* Bagian Profil Klien (REVISI JARAK NAMA & JABATAN) */
+    #seksi-testimoni .profil-klien {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        text-align: left;
+    }
+
+    #seksi-testimoni .foto-klien {
+        width: 50px !important;
+        height: 50px !important;
+        border-radius: 50% !important;
+        object-fit: cover;
+        margin: 0 !important;
+    }
+
+    /* Menggunakan flex-column agar jarak teks mudah diatur */
+    #seksi-testimoni .info-klien {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #seksi-testimoni .info-klien h4 {
+        font-size: 16px;
+        font-weight: 700;
+        color: #0f172a !important;
+        margin: 0 0 2px 0 !important;
+        /* Margin ditekan menjadi 2px saja */
+        line-height: 1.2 !important;
+        /* Mengunci tinggi baris agar tidak renggang */
+    }
+
+    #seksi-testimoni .info-klien span {
+        font-size: 13px;
+        color: #94a3b8;
+        line-height: 1.2 !important;
+        margin: 0 !important;
+        display: block;
+    }
+
+    /* Responsivitas Layar */
+    @media (max-width: 768px) {
+        #seksi-testimoni h2.judul-testi {
+            font-size: 32px;
+        }
+
+        #seksi-testimoni .card-testimoni {
+            padding: 25px 20px;
+        }
+    }
+</style>
+<!-- AKHIR OWL TESTIMONI -->
+
+<!-- AWAL COLLAPSE FAQ -->
+<div class='fitur bg-abuabu' id='seksi-faq'>
+    <div class='konten layout-faq'>
+
+        <div class='kol-12 gap kolom-teks'>
+            <div class="sub-judul-faq">
+                <span class="garis-hias"></span> FAQ
+            </div>
+            <h2 class="judul-faq">Pertanyaan Umum</h2>
+            <p class="deskripsi-faq">Temukan jawaban untuk pertanyaan umum mengenai layanan kami.</p>
+
+            <a href="https://wa.me/62895639068080" class="btn-biru-faq" target="_blank">
+                <i class="bi bi-chat-dots"></i> Tanya Lebih Lanjut
+            </a>
+        </div>
+
+        <div class='kol-12 gap kolom-akordion'>
+            <div class="panel-group" id="accordion-faq">
+
+                <div class="panel panel-default panel-faq wow animated fadeInLeft aktif">
+                    <div class="panel-heading">
+                        <h4 class="panel-title tebal">
+                            <a data-toggle="collapse" data-parent="#accordion-faq" href="#faq1" aria-expanded="true">
+                                Bagaimana cara membeli properti melalui MalangProperti?
+                                <i class="bi bi-chevron-up icon-faq"></i>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="faq1" class="panel-collapse collapse in">
+                        <div class="panel-body kecil">
+                            <p>Pilih properti, hubungi agen, survei lokasi, negosiasi, dan proses transaksi. Tim kami
+                                mendampingi setiap tahap hingga serah terima kunci.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default panel-faq wow animated fadeInLeft">
+                    <div class="panel-heading">
+                        <h4 class="panel-title tebal">
+                            <a data-toggle="collapse" data-parent="#accordion-faq" href="#faq2" class="collapsed">
+                                Apakah bisa menggunakan KPR?
+                                <i class="bi bi-chevron-down icon-faq"></i>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="faq2" class="panel-collapse collapse">
+                        <div class="panel-body kecil">
+                            <p>Tentu saja. Kami bekerja sama dengan berbagai bank terkemuka untuk memfasilitasi
+                                pengajuan KPR Anda dengan proses yang cepat dan bunga kompetitif.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default panel-faq wow animated fadeInLeft">
+                    <div class="panel-heading">
+                        <h4 class="panel-title tebal">
+                            <a data-toggle="collapse" data-parent="#accordion-faq" href="#faq3" class="collapsed">
+                                Berapa biaya jasa agen?
+                                <i class="bi bi-chevron-down icon-faq"></i>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="faq3" class="panel-collapse collapse">
+                        <div class="panel-body kecil">
+                            <p>Biaya jasa agen kami sangat transparan dan sesuai dengan standar asosiasi properti,
+                                biasanya dibebankan kepada pihak penjual. Konsultasi awal sepenuhnya gratis.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default panel-faq wow animated fadeInLeft">
+                    <div class="panel-heading">
+                        <h4 class="panel-title tebal">
+                            <a data-toggle="collapse" data-parent="#accordion-faq" href="#faq4" class="collapsed">
+                                Apakah properti sudah terverifikasi?
+                                <i class="bi bi-chevron-down icon-faq"></i>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="faq4" class="panel-collapse collapse">
+                        <div class="panel-body kecil">
+                            <p>Ya, seluruh *listing* properti kami telah melalui proses verifikasi ketat baik dari segi
+                                legalitas dokumen (SHM/HGB) maupun kondisi fisik bangunan.</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-    </section>
 
-    <!-- Testimoni -->
-    <section style="background: var(--bg-section);">
-        <div class="container">
-            <div class="section-header">
-                <span class="badge-label">Testimoni</span>
-                <h2>Apa Kata Alumni Kami?</h2>
-                <p>Ribuan alumni telah membuktikan kualitas pembelajaran di Pare Kampung Inggris.</p>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="testimonial-card fade-up">
-                        <div class="stars">
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                        </div>
-                        <p>"Pengalaman belajar di Pare benar-benar mengubah hidup saya. Dalam 2 bulan saya sudah bisa
-                            speaking dengan lancar!"</p>
-                        <div class="author">
-                            <img src="img/person-1.webp" alt="Sari Dewi">
-                            <div>
-                                <h6>Sari Dewi</h6>
-                                <small>Alumni 2024</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="testimonial-card fade-up">
-                        <div class="stars">
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                        </div>
-                        <p>"Tutornya ramah dan sabar. Lingkungan English Camp membuat saya terbiasa berbicara Inggris
-                            setiap hari. Recommended!"</p>
-                        <div class="author">
-                            <img src="img/person-2.webp" alt="Budi Santoso">
-                            <div>
-                                <h6>Budi Santoso</h6>
-                                <small>Alumni 2023</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="testimonial-card fade-up">
-                        <div class="stars">
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                        </div>
-                        <p>"Skor TOEFL saya naik dari 430 menjadi 560 hanya dalam 1 bulan. Metode belajarnya sangat
-                            efektif dan menyenangkan!"</p>
-                        <div class="author">
-                            <img src="img/person-3.webp" alt="Rina Lestari">
-                            <div>
-                                <h6>Rina Lestari</h6>
-                                <small>Alumni 2024</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    </div>
+</div>
 
-    <!-- CTA Section -->
-    <section class="cta-section text-center">
-        <div class="container position-relative" style="z-index: 2;">
-            <h2>Siap Lancar Bahasa Inggris?</h2>
-            <p>Jangan tunda lagi. Kuota asrama terbatas setiap periodenya. Amankan kursimu sekarang juga.</p>
-            <div class="d-flex flex-wrap justify-content-center gap-3">
-                <a href="paket.html" class="btn btn-light fw-bold px-4 py-3 rounded-pill">Daftar Sekarang</a>
-                <a href="https://wa.me/62895639068080" class="btn btn-outline-light fw-bold px-4 py-3 rounded-pill"
-                    target="_blank">
-                    <i class="bi bi-whatsapp me-2"></i>Konsultasi Gratis
-                </a>
-            </div>
-        </div>
-    </section>
+<style>
+    /* Background Section (REVISI JADI PUTIH SOLID) */
+    #seksi-faq.bg-abuabu {
+        background-color: #ffffff !important;
+        /* Diubah menjadi putih bersih */
+        padding: 80px 0;
+        font-family: 'Inter', 'Segoe UI', sans-serif;
+    }
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="row g-4">
-                <!-- Brand -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="footer-brand">
-                        <div class="brand-icon"><i class="bi bi-mortarboard-fill"></i></div>
-                        <span>Kampung<span style="color: var(--primary-light);">Inggris</span></span>
-                    </div>
-                    <p class="footer-desc">Pusat pembelajaran bahasa Inggris terbesar di Pare, Kediri. Membantu ribuan
-                        siswa mencapai impian global mereka sejak 2015.</p>
-                    <div class="social-icons">
-                        <a href="#"><i class="bi bi-facebook"></i></a>
-                        <a href="#"><i class="bi bi-instagram"></i></a>
-                        <a href="#"><i class="bi bi-youtube"></i></a>
-                        <a href="#"><i class="bi bi-tiktok"></i></a>
-                    </div>
-                </div>
-                <!-- Program -->
-                <div class="col-lg-2 col-md-6">
-                    <h5>Program</h5>
-                    <ul>
-                        <li><a href="program.html">Tes TOEFL Online</a></li>
-                        <li><a href="program.html">Kursus Speaking</a></li>
-                        <li><a href="program.html">Kursus IELTS</a></li>
-                        <li><a href="program.html">Kursus Dasar</a></li>
-                        <li><a href="program.html">Kursus Anak SD</a></li>
-                    </ul>
-                </div>
-                <!-- Informasi -->
-                <div class="col-lg-2 col-md-6">
-                    <h5>Informasi</h5>
-                    <ul>
-                        <li><a href="tentang-kami.html">Tentang Kami</a></li>
-                        <li><a href="fasilitas.html">Fasilitas</a></li>
-                        <li><a href="paket.html">Paket Kursus</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                    </ul>
-                </div>
-                <!-- Kontak -->
-                <div class="col-lg-4 col-md-6">
-                    <h5>Hubungi Kami</h5>
-                    <ul class="contact-info">
-                        <li>
-                            <i class="bi bi-geo-alt-fill"></i>
-                            <span>Jl. Brawijaya No. 12, Tulungrejo, Pare, Kediri, Jawa Timur</span>
-                        </li>
-                        <li>
-                            <i class="bi bi-telephone-fill"></i>
-                            <span>+62 812-3456-7890</span>
-                        </li>
-                        <li>
-                            <i class="bi bi-envelope-fill"></i>
-                            <span>info@parekampunginggris.web.id</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p class="mb-0">© 2025 Pare Kampung Inggris. Semua Hak Dilindungi.</p>
-            </div>
-        </div>
-    </footer>
+    /* Layout 2 Kolom dengan Flexbox */
+    #seksi-faq .layout-faq {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 40px;
+    }
 
-    <!-- WhatsApp Float -->
-    <a href="https://wa.me/62895639068080" class="whatsapp-float" target="_blank" title="Chat WhatsApp">
-        <i class="bi bi-whatsapp"></i>
-    </a>
+    /* Menimpa sifat class kol-12 bawaan agar pas di 2 kolom */
+    #seksi-faq .kolom-teks {
+        flex: 1 1 35%;
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 15px;
+    }
 
-    <!-- Scroll to Top -->
-    <button class="scroll-top" id="scrollTop" title="Ke Atas">
-        <i class="bi bi-arrow-up"></i>
-    </button>
+    #seksi-faq .kolom-akordion {
+        flex: 1 1 55%;
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 15px;
+    }
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Custom JS -->
-    <script>
-        // Navbar scroll effect
-        window.addEventListener('scroll', function () {
-            const navbar = document.getElementById('mainNavbar');
-            if (window.scrollY > 50) {
-                navbar.classList.add('scrolled');
-            } else {
-                navbar.classList.remove('scrolled');
-            }
+    /* --- STYLING KOLOM KIRI --- */
+    #seksi-faq .sub-judul-faq {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        color: #1e40af;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    #seksi-faq .sub-judul-faq .garis-hias {
+        width: 30px;
+        height: 2px;
+        background-color: #3b82f6;
+    }
+
+    #seksi-faq h2.judul-faq {
+        font-family: 'Merriweather', 'Georgia', serif;
+        font-size: 38px;
+        font-weight: 800;
+        color: #0f172a !important;
+        margin: 0 0 20px 0;
+        line-height: 1.2;
+        border: none;
+    }
+
+    #seksi-faq .deskripsi-faq {
+        font-size: 16px;
+        color: #64748b;
+        line-height: 1.6;
+        margin-bottom: 35px;
+    }
+
+    #seksi-faq .btn-biru-faq {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        background-color: #3b82f6;
+        color: #ffffff !important;
+        padding: 14px 30px;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 15px;
+        text-decoration: none;
+        box-shadow: 0 10px 20px -5px rgba(59, 130, 246, 0.4);
+        transition: all 0.3s ease;
+    }
+
+    #seksi-faq .btn-biru-faq:hover {
+        background-color: #2563eb;
+        transform: translateY(-3px);
+    }
+
+    /* --- STYLING KOLOM KANAN (ACCORDION) --- */
+    #seksi-faq .panel-group {
+        margin: 0;
+    }
+
+    #seksi-faq .panel-faq {
+        background-color: #ffffff !important;
+        border: 1px solid #e2e8f0 !important;
+        border-radius: 8px !important;
+        margin-bottom: 15px !important;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02) !important;
+        overflow: hidden;
+        transition: all 0.3s ease;
+    }
+
+    /* Latar menjadi biru sangat muda saat terbuka */
+    #seksi-faq .panel-faq.aktif {
+        background-color: #f4f8fd !important;
+        border-color: #bfdbfe !important;
+    }
+
+    #seksi-faq .panel-heading {
+        padding: 0 !important;
+        background: transparent !important;
+    }
+
+    #seksi-faq .panel-title {
+        margin: 0 !important;
+        font-size: 15px;
+    }
+
+    /* Memaksa Area Klik Penuh pada Judul */
+    #seksi-faq .panel-title a {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 25px;
+        color: #0f172a;
+        font-weight: 600;
+        text-decoration: none;
+        width: 100%;
+        cursor: pointer;
+        transition: color 0.3s;
+    }
+
+    #seksi-faq .panel-faq.aktif .panel-title a {
+        color: #1e40af;
+    }
+
+    /* Teks biru saat buka */
+
+    #seksi-faq .icon-faq {
+        font-size: 16px;
+        color: #0f172a;
+        transition: transform 0.3s, color 0.3s;
+    }
+
+    #seksi-faq .panel-faq.aktif .icon-faq {
+        color: #1e40af;
+    }
+
+    #seksi-faq .panel-body {
+        padding: 0 25px 20px 25px !important;
+        border-top: none !important;
+        background: transparent !important;
+        color: #64748b;
+        line-height: 1.6;
+    }
+
+    /* Responsivitas Layar HP */
+    @media (max-width: 768px) {
+        #seksi-faq .layout-faq {
+            flex-direction: column;
+        }
+
+        #seksi-faq h2.judul-faq {
+            font-size: 32px;
+        }
+
+        #seksi-faq .panel-title a {
+            padding: 15px 20px;
+            font-size: 14px;
+        }
+
+        #seksi-faq .panel-body {
+            padding: 0 20px 15px 20px !important;
+        }
+    }
+</style>
+
+<script>
+    $(document).ready(function () {
+        // Setup awal: Set ikon dan warna untuk panel yang sudah terbuka by default
+        $("#seksi-faq .collapse.in").each(function () {
+            $(this).closest(".panel-faq").addClass("aktif");
+            $(this).siblings(".panel-heading").find(".icon-faq").removeClass("bi-chevron-down").addClass("bi-chevron-up");
         });
 
-        // Scroll to Top
-        const scrollTopBtn = document.getElementById('scrollTop');
-        window.addEventListener('scroll', function () {
-            if (window.scrollY > 300) {
-                scrollTopBtn.classList.add('show');
-            } else {
-                scrollTopBtn.classList.remove('show');
-            }
-        });
-        scrollTopBtn.addEventListener('click', function () {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+        // Setup awal: Set ikon panah bawah untuk panel yang tertutup
+        $("#seksi-faq .collapse:not(.in)").each(function () {
+            $(this).siblings(".panel-heading").find(".icon-faq").addClass("bi-chevron-down").removeClass("bi-chevron-up");
         });
 
-        // Fade-up animation on scroll
-        const fadeElements = document.querySelectorAll('.fade-up');
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        }, { threshold: 0.1 });
-        fadeElements.forEach(el => observer.observe(el));
-    </script>
-</body>
+        // Event listener saat card MULAI TERBUKA
+        $("#seksi-faq .collapse").on('show.bs.collapse', function () {
+            $(this).closest(".panel-faq").addClass("aktif");
+            $(this).parent().find(".icon-faq").removeClass("bi-chevron-down").addClass("bi-chevron-up");
+        });
 
-
-</html>
+        // Event listener saat card MULAI TERTUTUP
+        $("#seksi-faq .collapse").on('hide.bs.collapse', function () {
+            $(this).closest(".panel-faq").removeClass("aktif");
+            $(this).parent().find(".icon-faq").removeClass("bi-chevron-up").addClass("bi-chevron-down");
+        });
+    });
+</script>
+<!-- AKHIR COLLAPSE FAQ -->
