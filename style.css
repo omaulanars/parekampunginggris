@@ -1226,6 +1226,20 @@ section {
         font-size: 1rem;
     }
 
+    .hero-img-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-floating-card {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-top: 15px;
+        width: 100%;
+    }
+
     .section-header h2 {
         font-size: 1.7rem;
     }
